@@ -1,0 +1,57 @@
+﻿@page
+@model ArabaSatisSitesi.Pages.MessagesModel
+@{
+    Layout = "_LayoutAdmin";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MESAJLAR</title>
+</head>
+<body>
+    <table class="nav-justified">
+        <tr>
+            <td style="height: 22px">MESAJLAR</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                <table class="nav-justified" style="width: 102%">
+                    @foreach (var message in Model.MessagesList)
+                    {
+                        <tr>
+                            <td>Gönderen Kişi: @message.ContactName</td>
+                        </tr>
+                        <tr>
+                            <td>Gönderen kişinin mail adresi: @message.ContactMail <br /> Mesaj:</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea id="tboxMesaj" rows="5" cols="40" readonly>@message.ContactMessage</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a asp-page="./MessageDelete" asp-route-id="@message.ContactID" class="btn btn-danger">Sil</a>
+                                <br />
+                                <br />
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </td>
+        </tr>
+        @if (Model.MessagesList.Count == 0)
+        {
+            <tr>
+                <td>Henüz mesaj yok.</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

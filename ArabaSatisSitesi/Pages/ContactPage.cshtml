@@ -1,0 +1,17 @@
+﻿@page
+@model ArabaSatisSitesi.Pages.ContactPageModel
+@{
+    Layout = "_Layout";
+}
+<form method="post">
+    <input asp-for="tboxName" class="form-control" placeholder="İsminizi giriniz" />
+    <br />
+    <br />
+    <input asp-for="tboxMail" class="form-control" placeholder="Mail adresinizi giriniz" />
+    <br />
+    <br />
+    <textarea asp-for="tboxMessage" class="form-control" placeholder="Mesajınızı yazınız"></textarea>
+    <br />
+    <br />
+    <button type="submit" class="btn btn-primary">Mesajı Gönder</button>
+</form>

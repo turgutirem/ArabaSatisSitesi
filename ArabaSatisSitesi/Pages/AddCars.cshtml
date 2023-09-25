@@ -1,0 +1,70 @@
+﻿@page
+@model ArabaSatisSitesi.Pages.AddCarsModel
+@{
+    Layout = "_Layout";
+}
+
+<div>
+    <form method="post">
+        <table class="nav-justified">
+            <tr>
+                <td class="modal-lg" style="width: 165px">Araba markasını seçiniz:</td>
+                <td>
+                    <select asp-for="SelectedBrand" asp-items="Model.BrandItems">
+                        <option value="">Seçiniz</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 165px">Araba modelini giriniz:</td>
+                <td>
+                    <input asp-for="CarModel" class="form-control" />
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="modal-lg" style="width: 165px">Araba fotoğraf linki:</td>
+                <td>
+                    <input asp-for="CarPhoto" class="form-control" />
+                </td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 165px; height: 20px">Araba yakıt tipi giriniz:</td>
+                <td style="height: 20px">
+                     <input asp-for="CarFuelType" class="form-control" />
+                </td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 165px">Açıklama giriniz:</td>
+                <td>
+                       <textarea asp-for="CarDescription" class="form-control" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 165px">Araç satıcısı</td>
+                <td>
+                     <input asp-for="CarSeller" class="form-control" />
+                </td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 165px">İletişim telefon numarası:</td>
+                <td>
+                      <input asp-for="CarContact" class="form-control" />
+                </td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 165px; height: 22px">Araç Fiyatı</td>
+                <td style="height: 22px">
+                    <input asp-for="CarPrice" class="form-control" />
+                </td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 165px">&nbsp;</td>
+                <td>
+                    <button type="submit" class="btn btn-primary">İlanı Gönder</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

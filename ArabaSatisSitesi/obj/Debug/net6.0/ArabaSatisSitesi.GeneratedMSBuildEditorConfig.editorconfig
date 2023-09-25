@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ArabaSatisSitesi
+build_property.RootNamespace = ArabaSatisSitesi
+build_property.ProjectDir = C:\Users\irem turgut\source\repos\ArabaSatisSitesi\ArabaSatisSitesi\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\irem turgut\source\repos\ArabaSatisSitesi\ArabaSatisSitesi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/AddCars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ2Fycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/AdminDeneme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5EZW5lbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/ContactPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/ListCars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdENhcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/LoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/Messages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/RegisterPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

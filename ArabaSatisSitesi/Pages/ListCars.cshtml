@@ -1,0 +1,69 @@
+﻿@page
+@model ArabaSatisSitesi.Pages.ListCarsModel
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Cars</title>
+</head>
+<body>
+    <form method="post">
+        @foreach (var item in Model.Cars)
+        {
+            <div>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <asp:DataList ID="Cars" runat="server">
+                    <ItemTemplate>
+                        <table class="nav-justified">
+                            <tr>
+                                <td>
+                                    <span>@item.BrandName</span>
+                                    &nbsp;
+                                    <span>@item.CarModel</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 20px"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="@item.CarPhoto" height="248px" width="985px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 20px">
+                                    <span>@item.CarFuelType</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>@item.CarDescription</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 20px">
+                                    <span>@item.CarSeller</span>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <span>@item.CarContact</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>@item.CarPrice</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </table>
+                    </ItemTemplate>
+                </asp:DataList>
+            </div>
+        }
+    </form>
+</body>
+</html>

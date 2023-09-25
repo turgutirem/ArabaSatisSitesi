@@ -1,0 +1,14 @@
+﻿@page
+@model ArabaSatisSitesi.Pages.LoginPageModel
+@{
+    Layout = "_Layout";
+}
+<div>
+    <form method="post">
+        <input asp-for="tboxMail" class="form-control" placeholder="E-posta" />
+        <br />
+        <input asp-for="tboxPassword" class="form-control" placeholder="Şifre" />
+        <br />
+        <button type="submit" class="btn btn-primary">Giriş Yap</button>
+    </form>
+</div>

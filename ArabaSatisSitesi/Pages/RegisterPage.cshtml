@@ -1,0 +1,14 @@
+﻿@page
+@model ArabaSatisSitesi.Pages.RegisterPageModel
+@{
+    Layout = "_Layout";
+}
+<div>
+    <form method="post">
+        <input asp-for="Email" class="form-control" placeholder="E-posta adresi" />
+        <br />
+        <input asp-for="Password" class="form-control" placeholder="Şifre" type="password" />
+        <br />
+        <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+    </form>
+</div>
