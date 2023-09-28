@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
 using System.Data;
+using Microsoft.AspNetCore.Http;
 
 namespace ArabaSatisSitesi.Pages
 {
@@ -38,13 +39,13 @@ namespace ArabaSatisSitesi.Pages
             {
                 if (tboxMail == "iremt.151@gmail.com")
                 {
-                 //   HttpContext.Session.SetString("IsUserAdmin", "true");
-                //    HttpContext.Session.SetString("UserMail", "iremt.151@gmail.com");
+                    HttpContext.Session.SetString("IsUserAdmin", "true");
+                    HttpContext.Session.SetString("UserMail", "iremt.151@gmail.com");
                     return RedirectToPage("AdminDeneme");
                 }
                 else
                 {
-                    HttpContext.Session.SetString("IsUserOnline", "true");
+                    HttpContext.Session.SetString("IsUserOnline","true");
                     HttpContext.Session.SetString("UserMail", dt.Rows[0].ToString());
                     return RedirectToPage("ListCars");
                 }

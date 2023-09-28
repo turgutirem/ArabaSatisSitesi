@@ -1,0 +1,91 @@
+﻿@page
+@model ArabaSatisSitesi.Pages.AdminAddCarsModel
+@{
+    Layout = "_LayoutAdmin";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Cars</title>
+</head>
+<body>
+    <form id="form1" method="post">
+        @if (Model != null && Model.Cars != null)
+        {
+            @foreach (var item in Model.Cars)
+            {
+                <asp:DataList ID="DataList1" runat="server">
+                    <ItemTemplate>
+                        <table class="nav-justified">
+                            <tr>
+                                <td class="modal-lg" style="width: 165px">&nbsp;</td>
+                                <td>
+                                    &nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="modal-lg" style="width: 165px">Araba modeli</td>
+                                <td>
+                                    <input id="tboxModel" asp-for="@item.CarModel" class="form-control" readonly />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="modal-lg" style="width: 165px">Araba fotoğrafı</td>
+                                <td>
+                                    <input id="tboxPhoto" asp-for="@item.CarPhoto" class="form-control" readonly />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="modal-lg" style="width: 165px; height: 20px">Araba yakıt tipi</td>
+                                <td style="height: 20px">
+                                    <input id="tboxFuel" asp-for="@item.CarFuelType" class="form-control" readonly />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="modal-lg" style="width: 165px">Açıklama</td>
+                                <td>
+                                    <textarea id="tboxDescription" asp-for="@item.CarDescription" class="form-control" rows="4" readonly></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="modal-lg" style="width: 165px">Araç satıcısı</td>
+                                <td>
+                                    <input id="tboxSeller" asp-for="@item.CarSeller" class="form-control" readonly />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="modal-lg" style="width: 165px">İletişim telefon numarası:</td>
+                                <td>
+                                    <input id="tboxContact" asp-for="@item.CarContact" class="form-control" readonly />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="modal-lg" style="width: 165px; height: 22px">Araç Fiyatı</td>
+                                <td style="height: 22px">
+                                    <input id="tboxPrice" asp-for="@item.CarPrice" class="form-control" readonly />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="modal-lg" style="width: 165px">&nbsp;</td>
+                                <td>
+                                    &nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="modal-lg" style="width: 165px">&nbsp;</td>
+                                <td>
+                                    <a asp-page="./ApproveCars" asp-route-carid="@item.CarID"><div class="btn btn-danger">Onayla</div></a>
+                                </td>
+
+                            <tr>
+                                <td class="modal-lg" style="width: 165px; border-bottom-style: solid; border-bottom-width: medium;">&nbsp;</td>
+                                <td style="border-bottom-style: solid; border-bottom-width: medium">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </ItemTemplate>
+                </asp:DataList>
+            }
+        }
+    </form>
+</body>
+</html>

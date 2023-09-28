@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 
 namespace ArabaSatisSitesi.Pages
 {
+    //23.video da kaldýk silme butonu
     public class Message
     {
         public string ContactName { get; set; }

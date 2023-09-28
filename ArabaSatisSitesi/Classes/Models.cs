@@ -16,6 +16,7 @@ namespace ArabaSatisSitesi.Classes
         public string CarSeller { get; set; }
 
         public int CarPrice { get; set; }
+        public int CarID { get; set; }
         // Diğer özellikler burada
     }
     public class BrandModel

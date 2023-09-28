@@ -24,8 +24,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ2Fycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/AdminAddCars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5BZGRDYXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/AdminDeneme.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5EZW5lbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/ApproveCars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwcm92ZUNhcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/ContactPage.cshtml]
@@ -42,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/LoginPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/LogoutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/MessageDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZURlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/irem turgut/source/repos/ArabaSatisSitesi/ArabaSatisSitesi/Pages/Messages.cshtml]

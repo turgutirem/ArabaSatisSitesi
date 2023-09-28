@@ -9,14 +9,11 @@ namespace ArabaSatisSitesi.Pages
 {
     public class ListCarsModel : PageModel
     {
-        private readonly IConfiguration _configuration;
+       
 
         public List<CarsModels> Cars { get; set; }
 
-        public ListCarsModel(IConfiguration configuration)
-        {
-            _configuration = configuration;
-        }
+      
 
         public void OnGet()
         {
